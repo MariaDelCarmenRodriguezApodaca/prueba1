@@ -5,6 +5,7 @@ var app = express();
 
 app.get("/", (req, res) => {
     res.send("hola mundo");
+    res.end();
 })
 
 app.listen(3001, () => {
