@@ -7,6 +7,6 @@ app.get("/", (req, res) => {
     res.send("hola mundo");
 })
 
-app.listen(80, () => {
+app.listen(3001, () => {
     console.log("el servidor corre en el purto 80")
 })
